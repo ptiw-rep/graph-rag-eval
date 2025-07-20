@@ -1,0 +1,7 @@
+ollama_model: "llama3"
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "your_password"
+chunk_size: 500
+similarity_threshold: 0.75

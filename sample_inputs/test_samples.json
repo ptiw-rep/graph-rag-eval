@@ -1,0 +1,14 @@
+{
+  "sample1": {
+    "source": "Barack Obama was born in Hawaii and served as the 44th President of the United States. He was born in 1961 and lived in Chicago before becoming president. Hawaii is an island located in the Pacific Ocean.",
+    "summary": "Barack Obama was born in Hawaii and was President of the United States. Hawaii is in the Pacific Ocean."
+  },
+  "sample2": {
+    "source": "Elon Musk is the CEO of Tesla and SpaceX. He was born in South Africa in 1971 and later moved to the United States. Tesla is known for its electric vehicles and renewable energy products. SpaceX develops reusable rockets and has launched several missions to the International Space Station. Musk also founded The Boring Company and co-founded PayPal.",
+    "summary": "Elon Musk is the CEO of Tesla and SpaceX. He was born in South Africa and later moved to the US. Tesla makes electric cars and SpaceX builds reusable rockets. He also founded The Boring Company and co-founded PayPal."
+  },
+  "sample3": {
+    "source": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. AI can be categorized into weak AI and strong AI. Weak AI is designed to perform narrow tasks, like facial recognition or internet searches. Strong AI, on the other hand, refers to systems that can handle any intellectual task that a human being can. AI has applications in many industries, including healthcare, finance, education, and transportation. Machine learning is a subset of AI that allows machines to improve at tasks through experience. Deep learning, a further subset of machine learning, uses neural networks to model and understand complex patterns in data. Natural Language Processing (NLP) is another branch of AI that enables machines to understand and respond to human language. AI ethics is a growing field that addresses concerns about bias, transparency, and the societal impact of AI systems.",
+    "summary": "Artificial Intelligence simulates human intelligence in machines. It is used in many fields including healthcare, finance, education, and transportation. AI is divided into weak and strong AI. Machine learning and deep learning are subsets of AI. Natural Language Processing helps machines understand human language. Ethics in AI deals with bias, transparency, and societal impact."
+  }
+}

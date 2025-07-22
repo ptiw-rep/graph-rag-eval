@@ -27,6 +27,7 @@ A **modular Python tool** for evaluating the **recall and precision of facts** i
 ---
 
 ## 📁 Folder Structure
+```
 graph_rag_eval/
 │
 ├── config.yaml
@@ -40,7 +41,7 @@ graph_rag_eval/
 ├── cli/ # CLI interface
 ├── main.py # Sample runner
 └── sample_inputs/ # Test input texts
-
+```
 
 ---
 
@@ -61,6 +62,7 @@ pip install -r requirements.txt
 ```
 
 ## CLI Options
+```
 --source TEXT               Enter source text
 --summary TEXT              Enter summary text
 --method [spacy|ollama|hybrid]
@@ -68,3 +70,4 @@ pip install -r requirements.txt
 --threshold FLOAT           Similarity threshold for fuzzy match (default: 0.75)
 --chunk / --no-chunk        Enable chunking for long texts
 --store / --no-store        Store graphs in Neo4j
+```

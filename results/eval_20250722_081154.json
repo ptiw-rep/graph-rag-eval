@@ -1,0 +1,88 @@
+{
+  "run_id": "eval_20250722_081154",
+  "timestamp": "20250722_081154",
+  "source_text_preview": "Elon Musk is the CEO of Tesla and SpaceX. He was born in South Africa in 1971 and later moved to the United States. Tesla is known for its electric vehicles and renewable energy products. SpaceX devel...",
+  "summary_text_preview": "Elon Musk is the CEO of Tesla and SpaceX. He was born in South Africa and later moved to the US. Tesla makes electric cars and SpaceX builds reusable rockets. He also founded The Boring Company and co...",
+  "extraction_method": "spacy",
+  "ollama_model": "gemma3:4b",
+  "similarity_threshold": 0.75,
+  "fact_counts": {
+    "source_total": 2,
+    "summary_total": 3,
+    "recall": {
+      "matched_relations": 0,
+      "partial_relation": 1,
+      "missing": 1
+    },
+    "precision": {
+      "correct_relations": 0,
+      "wrong_relation": 1,
+      "hallucinated": 2
+    }
+  },
+  "raw_facts": {
+    "source": [
+      [
+        "SpaceX",
+        "develops",
+        "rockets"
+      ],
+      [
+        "Musk",
+        "founded",
+        "Company"
+      ]
+    ],
+    "summary": [
+      [
+        "Tesla",
+        "makes",
+        "cars"
+      ],
+      [
+        "SpaceX",
+        "builds",
+        "rockets"
+      ],
+      [
+        "He",
+        "founded",
+        "Company"
+      ]
+    ]
+  },
+  "unmatched": {
+    "missed_in_summary": [
+      [
+        "Musk",
+        "founded",
+        "Company"
+      ]
+    ],
+    "hallucinated_in_summary": [
+      [
+        "Tesla",
+        "makes",
+        "cars"
+      ],
+      [
+        "He",
+        "founded",
+        "Company"
+      ]
+    ]
+  },
+  "scores": {
+    "recall": {
+      "score": 1.0,
+      "max": 3.0,
+      "normalized": 0.3333333333333333
+    },
+    "precision": {
+      "score": -3.0,
+      "max": 4.5,
+      "normalized": 0.0
+    },
+    "f1_normalized": 0.0
+  }
+}

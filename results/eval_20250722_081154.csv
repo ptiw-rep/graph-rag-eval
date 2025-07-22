@@ -1,0 +1,6 @@
+type,subject,relation,object,in_summary_as,in_source_as
+recall_partial,SpaceX,develops,rockets,builds,
+recall_missing,Musk,founded,Company,,
+precision_wrong_rel,SpaceX,builds,rockets,,develops
+precision_hallucination,Tesla,makes,cars,,
+precision_hallucination,He,founded,Company,,
